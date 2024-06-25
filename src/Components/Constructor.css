@@ -1,0 +1,127 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 30%;
+}
+
+.constructor {
+  background-color: rgb(251, 244, 235);
+  width: 420px;
+  height: auto;
+  border: 2px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.colorBox {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.colorButton {
+  margin: 5px;
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+
+.formButton {
+  margin: 5px;
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.buttonAddForm {
+  width: 200px;
+  height: 60px;
+  margin-left: 25%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.formButton:hover {
+  background-color: yellow;
+}
+
+.buttonAddForm:active,
+.colorButton:active,
+.formButton:active {
+  background-color: rgb(129, 225, 129);
+}
+
+.display {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.selected {
+  background-color: rgb(129, 225, 129);
+}
+
+.green:hover {
+  background-color: green;
+}
+.red:hover {
+  background-color: red;
+}
+.orange:hover {
+  background-color: orange;
+}
+.blue:hover {
+  background-color: blue;
+}
+
+.active_green {
+  background-color: green;
+}
+.active_red {
+  background-color: red;
+}
+.active_orange {
+  background-color: orange;
+}
+.active_blue {
+  background-color: blue;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  border: 2px solid;
+  margin: 15px;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border: 2px solid;
+  border-radius: 50%;
+  margin: 15px;
+}
